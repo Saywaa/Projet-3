@@ -7,54 +7,58 @@
     <script src="https://kit.fontawesome.com/5e0a723264.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/sassstyleindex.css">
     <title>Ohmyfood - Accueil</title>
 </head>
 <body>
     <header>
-        <img src="images/logo/ohmyfood.png" alt="Logo Ohmyfood">
+        <div class="headlogo">    
+            <img src="images/logo/ohmyfood.png" alt="Logo Ohmyfood" class="headlogo__img">
+        </div>
         <nav>
-            <div>
+            <div class="navbar">
                 <i class="fa-solid fa-location-dot"></i>
-                <p>Paris, Belleville</p>
+                <p class="navbar__city">Paris, Belleville</p>
             </div>
-            <div>
-                <h1>
+            <div class="description">
+                <h1 class="description__title">
                     Réservez le menu qui vous convient
                 </h1>
-                <h2>
+                <h2 class="description__discover">
                     Découvrez des restaurants d'exception, sélectionnés par nos soins
                 </h2>
-                <button>
+                <button class="description__button">
                     Explorer nos restaurants
                 </button>
             </div>
         </nav>
-        <div>
-            <h1>
+        <div class="fonctionnement">
+            <h1 class="fonctionnement__title">
                 Fonctionnement
             </h1>
-            <div>
-                <div>
-                    <p>1</p>
+            <div class="fonctionnement__bis">
+                <div class="fonctionnement__bis__card">
+                    <div class="fonctionnement__bis__card__number">
+                        <p>1</p>
+                    </div>
+                    <i class="fa-solid fa-mobile-screen-button fonctionnement__bis__card__icone"></i>
+                    <p>Choisissez un restaurant</p>
                 </div>
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <p>Choisissez un restaurant</p>
-            </div>
-            <div>
-                <div>
-                    <p>2</p>
+                <div class="fonctionnement__bis__card">
+                    <div class="fonctionnement__bis__card__number">
+                        <p>2</p>
+                    </div>
+                    <i class="fa-solid fa-list-ul fonctionnement__bis__card__icone"></i>
+                    <p>Composez votre menu</p>
                 </div>
-                <i class="fa-solid fa-list-ul"></i>
-                <p>Composez votre menu</p>
-            </div>
-            <div>
-                <div>
-                    <p>3</p>
+                <div class="fonctionnement__bis__card">
+                    <div class="fonctionnement__bis__card__number">
+                        <p>3</p>
+                    </div>
+                    <i class="fa-solid fa-store fonctionnement__bis__card__icone"></i>
+                    <p>Dégustez au restaurant</p>
                 </div>
-                <i class="fa-solid fa-store"></i>
-                <p>Dégustez au restaurant</p>
             </div>
         </div>
     </header>
