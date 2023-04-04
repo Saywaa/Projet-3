@@ -148,6 +148,7 @@ a:active {
   color: #9356DC;
 }
 
+/* Main */
 .main {
   background-color: #f7f7f7;
 }
@@ -204,7 +205,7 @@ a:active {
 .main__section__card__description__bis__new {
   position: relative;
   bottom: 175px;
-  left: 20px;
+  left: 23px;
   height: 29px;
   width: 80px;
   background-color: #99E2D0;
@@ -220,6 +221,7 @@ a:active {
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
+/* Footer */
 .footer {
   background-color: #353535;
   padding-left: 25px;
