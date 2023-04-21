@@ -42,19 +42,9 @@ a {
 /* Header */
 
 .nav {
-    &__arrow {
-        font-size: 23px;
-        color: #353535;
-        position: absolute;
-        left: 23px;
-        top: 20px;
-        @media (min-width: $breakpoint-desktop) {
-            top: 35px;
-        }
-    }
     &__headlogo {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         height: 63px;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
         text-align: center;
@@ -65,10 +55,23 @@ a {
             height: 96px;
             font-size: 35px;
         }
+        &__arrow {
+            font-size: 23px;
+            color: #353535;
+            position: relative;
+            left: 25px;
+            top: 20px;
+            &--hidden {
+                visibility: hidden;
+            }
+            @media (min-width: $breakpoint-desktop) {
+                top: 35px;
+            }
+        }
         &__text {
             margin-top: 14px;
             @media (min-width: $breakpoint-desktop) {
-                margin-top: 30px;
+                margin-top: 25px;
             }
         }
     }
@@ -110,20 +113,13 @@ a {
         margin-left: 4px;
         @media (min-width: $breakpoint-desktop) {
             justify-content: center;
+            margin-right: 0px;
+            margin-left: 0px;
         }
         &__text {
             font-family: 'Shrikhand';
             font-weight: 400;
             font-size: 28px;
-        }
-        &__icone {
-            &:hover {
-                background: linear-gradient(193.33deg, $color-primary -11.44%, $color-secondary 123.93%);
-            }
-            @media (min-width: $breakpoint-desktop) {
-                margin-left: 25px;
-                font-size: 23px;
-            }
         }
     }
     &__section {
