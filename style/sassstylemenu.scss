@@ -177,6 +177,7 @@ a {
             padding: 0px;
         }
         &__card {
+            overflow: hidden;
             position: relative;
             background-color: white;
             height: 69px;
@@ -191,6 +192,9 @@ a {
                 & > .main__section__card__check {
                     display: block;
                     animation: slide 0.5s ease;
+                }
+                & > .main__section__card__price {
+                    animation: slide-price 0.5s ease both;
                 }
             }
             &__menu {
@@ -300,6 +304,16 @@ a {
 
     100% {
         transform: translateX(0%);
+    }
+}
+
+@keyframes slide-price {
+    0% {
+        margin-right: 15px;
+    }
+
+    100% {
+        margin-right: 70px;
     }
 }
 

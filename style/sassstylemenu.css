@@ -187,6 +187,7 @@ a:active {
   padding: 0px;
 }
 .main__section__card {
+  overflow: hidden;
   position: relative;
   background-color: white;
   height: 69px;
@@ -308,10 +309,10 @@ a:active {
 }
 @keyframes slide-price {
   0% {
-    transform: translateX(0);
+    margin-right: 15px;
   }
   100% {
-    transform: translateX(-57px);
+    margin-right: 70px;
   }
 }
 @keyframes rotate {
