@@ -287,16 +287,6 @@ a {
     }
 }
 
-@keyframes choose-dish {
-    from {
-        transform: scaleX(1)
-    }
-
-    to {
-        transform: scaleX(0.8);
-    }
-}
-
 @keyframes slide {
     0% {
         transform: translateX(100%);
